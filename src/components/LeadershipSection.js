@@ -17,7 +17,7 @@ const LeadershipSection = () => {
           <div className="grid gap-24 md:grid-cols-2 md:gap-12">
             {/* Leadership Member 1 */}
             <LeaderCard
-              name="Hentoni Doe"
+              name="Dr. Florence Oladeji"
               role="Project Supervisor"
               imageSrc="./ps.jpg"
               facebookLink="#"
