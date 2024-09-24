@@ -13,7 +13,7 @@ const HomePage = () => {
       <div className=''>
         <NavBar />
         <div className="min-h-screen flex">
-          <div className=" lg:mx-auto px-6 py-6 md:py-32 lg:py-40 md:px-20  lg:px-20">
+          <div className=" lg:mx-auto px-6 py-6 md:py-32 lg:pt-36 md:px-20  lg:px-20">
             <div className="flex items-center flex-wrap gap-12 lg:gap-0 mt-16">
               <div className="md:w-full lg:w-5/12 space-y-8 ">
                 <span className="flex space-x-2">
