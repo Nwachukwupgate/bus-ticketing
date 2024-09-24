@@ -25,10 +25,10 @@ const FeaturesSection = () => {
                     alt={feature.alt}
                   />
                   <div className="space-y-6">
-                    <h3 className="text-2xl font-semibold text-gray-800 transition dark:text-white">
+                    <h3 className="text-lg md:text-2xl lg:text-3xl font-semibold text-gray-800 transition dark:text-white">
                       {feature.title}
                     </h3>
-                    <p className="text-gray-600 dark:text-gray-300">{feature.description}</p>
+                    <p className="text-gray-600 dark:text-gray-300 text-sm md:text-base lg:text-lg">{feature.description}</p>
                     <a
                       href="#"
                       className="group relative flex mx-auto h-12 w-12 items-center justify-center before:absolute before:inset-0 before:rounded-full before:border before:border-gray-200 before:bg-gray-50 before:bg-gradient-to-b before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 dark:before:border-gray-700 dark:before:bg-gray-800"

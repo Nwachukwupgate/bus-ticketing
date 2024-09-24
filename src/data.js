@@ -2,37 +2,37 @@ export const fans = [
     {
       name: 'Eric Ampire',
       role: 'Computer Science Student',
-      imgSrc: 'https://pbs.twimg.com/profile_images/1559671811780087810/Y4E8X2do_400x400.jpg',
+      imgSrc: './logo1.jpg',
       feedback: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum aliquid quo eum quae quos illo earum ipsa doloribus nostrum minus libero aspernatur laborum cum, a suscipit, ratione ea totam ullam! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto laboriosam deleniti aperiam ab veniam sint non cumque quis tempore cupiditate. Sint libero voluptas veniam at reprehenderit, veritatis harum et rerum.',
     },
     {
       name: 'Rodrigo Aguilar',
       role: 'Music/Art',
-      imgSrc: 'https://pbs.twimg.com/profile_images/1372441824560771075/DTcuXT0Z_400x400.jpg',
+      imgSrc: './logo1.jpg',
       feedback: 'Lorem ipsum dolor laboriosam deleniti aperiam ab veniam sint non cumque quis tempore cupiditate. Sint libero voluptas veniam at reprehenderit, veritatis harum et rerum.',
     },
     {
       name: 'Adam Wathan',
       role: 'Electrical Engineering Student',
-      imgSrc: 'https://pbs.twimg.com/profile_images/1362367807887974401/kuJ1OFT1_400x400.jpg',
+      imgSrc: './logo1.jpg',
       feedback: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto laboriosam deleniti aperiam ab veniam sint non cumque quis tempore cupiditate. Sint libero voluptas veniam at reprehenderit, veritatis harum et rerum.',
     },
     {
       name: 'Dan Kyungu',
       role: 'Medical Student',
-      imgSrc: 'https://pbs.twimg.com/profile_images/1511686703672606725/_DV4Mfjd_400x400.jpg',
+      imgSrc: './logo1.jpg',
       feedback: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto laboriosam deleniti aperiam ab veniam sint non cumque quis tempore cupiditate. Sint libero voluptas veniam at reprehenderit, veritatis harum et rerum.',
     },
     {
       name: 'John Doe',
       role: 'Medical Student',
-      imgSrc: 'images/first_user.webp',
+      imgSrc: './logo1.jpg',
       feedback: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto laboriosam deleniti aperiam ab veniam sint non cumque quis tempore cupiditate. Sint libero voluptas veniam at reprehenderit, veritatis harum et rerum.',
     },
     {
       name: 'Randy Doe',
       role: 'Medical Student',
-      imgSrc: 'images/second_user.webp',
+      imgSrc: './logo1.jpg',
       feedback: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto laboriosam deleniti aperiam ab veniam sint non cumque quis tempore cupiditate. Sint libero voluptas veniam at reprehenderit, veritatis harum et rerum.',
     },
   ];

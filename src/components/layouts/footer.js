@@ -9,7 +9,7 @@ const Footer = () => {
             <div className="mb-6 items-center justify-between gap-6 py-6 sm:flex md:mb-16 md:space-y-6 md:py-0">
               <img width="100" height="42" src="images/logo.svg" alt="logo" className="w-32" />
               <div className="mt-6 flex flex-col-reverse flex-wrap gap-6 sm:mt-0 sm:flex-row sm:items-center">
-                <select name="langage" id="langae" className="w-full rounded-xl dark:bg-gray-900 px-4 py-2 sm:w-max">
+                <select name="langage" id="langae" className="w-full rounded-xl dark:bg-gray-900 px-4 py-2 sm:w-max text-sm md:text-base lg:text-lg">
                   <option value="en">English</option>
                   <option value="fr">French</option>
                   <option value="sw">Swahili</option>
@@ -36,8 +36,8 @@ const Footer = () => {
             <div>
               <div className="grid grid-cols-2 gap-6 pb-16 sm:grid-cols-3 md:grid-cols-5">
                 <div>
-                  <h6 className="text-lg font-medium text-gray-700 dark:text-gray-200">Categories</h6>
-                  <ul className="mt-4 list-inside space-y-4">
+                  <h6 className="text-lg md:text-xl lg:text-2xl  font-medium text-gray-700 dark:text-gray-200">Categories</h6>
+                  <ul className="mt-4 list-inside space-y-4 text-sm md:text-base lg:text-lg">
                     <li><a href="#" className="transition hover:text-primary">About</a></li>
                     <li><a href="#" className="transition hover:text-primary">Customers</a></li>
                     <li><a href="#" className="transition hover:text-primary">Enterprise</a></li>
@@ -46,8 +46,8 @@ const Footer = () => {
                   </ul>
                 </div>
                 <div>
-                  <h6 className="text-lg font-medium text-gray-700 dark:text-gray-200">Products</h6>
-                  <ul className="mt-4 list-inside space-y-4">
+                  <h6 className="text-lg md:text-xl lg:text-2xl font-medium text-gray-700 dark:text-gray-200">Products</h6>
+                  <ul className="mt-4 list-inside space-y-4 text-sm md:text-base lg:text-lg">
                     <li><a href="#" className="transition hover:text-primary">About</a></li>
                     <li><a href="#" className="transition hover:text-primary">Customers</a></li>
                     <li><a href="#" className="transition hover:text-primary">Enterprise</a></li>
@@ -56,8 +56,8 @@ const Footer = () => {
                   </ul>
                 </div>
                 <div>
-                  <h6 className="text-lg font-medium text-gray-700 dark:text-gray-200">Resources</h6>
-                  <ul className="mt-4 list-inside space-y-4">
+                  <h6 className="text-lg md:text-xl lg:text-2xl font-medium text-gray-700 dark:text-gray-200">Resources</h6>
+                  <ul className="mt-4 list-inside space-y-4 text-sm md:text-base lg:text-lg">
                     <li><a href="#" className="transition hover:text-primary">About</a></li>
                     <li><a href="#" className="transition hover:text-primary">Customers</a></li>
                     <li><a href="#" className="transition hover:text-primary">Enterprise</a></li>
@@ -66,8 +66,8 @@ const Footer = () => {
                   </ul>
                 </div>
                 <div>
-                  <h6 className="text-lg font-medium text-gray-700 dark:text-gray-200">Contact</h6>
-                  <ul className="mt-4 list-inside space-y-4">
+                  <h6 className="text-lg md:text-xl lg:text-2xl  font-medium text-gray-700 dark:text-gray-200">Contact</h6>
+                  <ul className="mt-4 list-inside space-y-4 text-sm md:text-base lg:text-lg">
                     <li><a href="#" className="transition hover:text-primary">About</a></li>
                     <li><a href="#" className="transition hover:text-primary">Customers</a></li>
                     <li><a href="#" className="transition hover:text-primary">Enterprise</a></li>
@@ -76,8 +76,8 @@ const Footer = () => {
                   </ul>
                 </div>
                 <div>
-                  <h6 className="text-lg font-medium text-gray-700 dark:text-gray-200">More</h6>
-                  <ul className="mt-4 list-inside space-y-4">
+                  <h6 className="text-lg md:text-xl lg:text-2xl font-medium text-gray-700 dark:text-gray-200 ">More</h6>
+                  <ul className="mt-4 list-inside space-y-4 text-sm md:text-base lg:text-lg">
                     <li><a href="#" className="transition hover:text-primary">About</a></li>
                     <li><a href="#" className="transition hover:text-primary">Customers</a></li>
                     <li><a href="#" className="transition hover:text-primary">Enterprise</a></li>
@@ -90,8 +90,8 @@ const Footer = () => {
           </div>
           <hr className="border-gray-300 dark:border-gray-700" />
           <div className="flex flex-col items-center justify-between py-6 sm:flex-row">
-            <p className="text-center text-gray-600 dark:text-gray-300">© 2024 CampusConnect. All rights reserved.</p>
-            <div className="flex flex-wrap justify-center gap-8 py-4 sm:py-0">
+            <p className="text-center text-gray-600 dark:text-gray-300 text-sm md:text-base lg:text-lg">© 2024 CampusConnect. All rights reserved.</p>
+            <div className="flex flex-wrap justify-center gap-8 py-4 sm:py-0 text-sm md:text-base lg:text-lg">
               <a href="#" className="text-gray-600 transition hover:text-primary dark:text-gray-300">Privacy Policy</a>
               <a href="#" className="text-gray-600 transition hover:text-primary dark:text-gray-300">Terms of Service</a>
             </div>
