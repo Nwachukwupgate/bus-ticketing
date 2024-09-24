@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const LoginComponent = () => {
+const SignUp = () => {
 
   return (
     <div className="m-auto xl:container px-12 sm:px-0 mx-auto">
@@ -15,7 +15,7 @@ const LoginComponent = () => {
           </div>
 
           <div className="mt-12 rounded-3xl border bg-gray-50 dark:border-gray-700 dark:bg-gray-800 -mx-6 sm:-mx-10 p-8 sm:p-10">
-            <h3 className="text-2xl font-semibold text-gray-700 dark:text-white">Login to your account</h3>
+            <h3 className="text-2xl font-semibold text-gray-700 dark:text-white">Create to your account</h3>
             <div className="mt-12 flex flex-wrap sm:grid gap-6 grid-cols-2">
               <button
                 className="w-full h-11 rounded-full border border-gray-300/75 bg-white px-6 transition active:bg-gray-50 dark:bg-gray-700 dark:border-gray-600 dark:hover:bg-gray-800 dark:hover:border-gray-700"
@@ -27,7 +27,7 @@ const LoginComponent = () => {
                   </span>
                 </div>
               </button>
-             
+              
             </div>
 
             <form className="mt-10 space-y-8 dark:text-white">
@@ -63,8 +63,8 @@ const LoginComponent = () => {
                   <span className="text-base font-semibold text-white dark:text-gray-900">Login</span>
                 </button>
                 <button type="reset" className="-ml-3 w-max p-3">
-                    <Link to="/signup">
-                  <span className="text-sm tracking-wide text-sky-600 dark:text-sky-400">Create new account</span>
+                    <Link to="/login">
+                  <span className="text-sm tracking-wide text-sky-600 dark:text-sky-400">Already have an account? login</span>
                   </Link>
                 </button>
               </div>
@@ -84,4 +84,4 @@ const LoginComponent = () => {
   );
 };
 
-export default LoginComponent;
+export default SignUp;

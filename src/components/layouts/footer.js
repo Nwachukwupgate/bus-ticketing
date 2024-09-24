@@ -90,7 +90,7 @@ const Footer = () => {
           </div>
           <hr className="border-gray-300 dark:border-gray-700" />
           <div className="flex flex-col items-center justify-between py-6 sm:flex-row">
-            <p className="text-center text-gray-600 dark:text-gray-300">© 2024 Tailus. All rights reserved.</p>
+            <p className="text-center text-gray-600 dark:text-gray-300">© 2024 CampusConnect. All rights reserved.</p>
             <div className="flex flex-wrap justify-center gap-8 py-4 sm:py-0">
               <a href="#" className="text-gray-600 transition hover:text-primary dark:text-gray-300">Privacy Policy</a>
               <a href="#" className="text-gray-600 transition hover:text-primary dark:text-gray-300">Terms of Service</a>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const NavBar = () => {
   return (
@@ -106,16 +107,20 @@ const NavBar = () => {
                 title="Login"
                 className="group w-full py-3 px-6 text-center transition dark:active:bg-yellow-800 dark:focus:bg-yellow-900 active:bg-yellow-200 focus:bg-yellow-100 sm:w-max"
               >
-                <span className="block text-gray-700 dark:text-gray-300 font-semibold group-focus:text-yellow-700 dark:group-focus:text-yellow-100">
-                  Login
-                </span>
+                <Link to='/login'>
+                  <span className="block text-gray-700 dark:text-gray-300 font-semibold group-focus:text-yellow-700 dark:group-focus:text-yellow-100">
+                    Login
+                  </span>
+                </Link>
               </button>
               <button
                 type="button"
                 title="Sign Up"
                 className="w-full py-3 px-6 text-center transition dark:bg-gray-700 bg-gray-900 hover:bg-gray-800 active:bg-gray-700 focus:bg-gray-800 md:w-max"
               >
+                <Link to='/signup'>
                 <span className="block text-white font-semibold">Sign Up</span>
+                </Link>
               </button>
             </div>
           </div>

@@ -7,7 +7,7 @@ import MapComponent from '../components/CustomMap';
 import SubscriptionPlans from '../components/SubscriptionPlan';
 import Footer from '../components/layouts/footer';
 
-const index = () => {
+const HomePage = () => {
   return (
     <div className="bg-white dark:bg-gray-900">
       <div className='container mx-auto'>
@@ -151,4 +151,4 @@ const index = () => {
   );
 }
 
-export default index;
+export default HomePage;
